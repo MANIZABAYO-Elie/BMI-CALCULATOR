@@ -12,4 +12,9 @@ input{
 .btn{
     font-size: 30px;
     border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: cornflowerblue;
+    transform: scale(2.1);
 }
