@@ -19,13 +19,13 @@ document.getElementById('display').innerHTML = "invalid mass"
     
 const BMI = (mass)/(height/100*height/100).toFixed(1)
       
-     if(BMI>=18){
+     if(BMI<18){
         document.getElementById('display').innerHTML = `YOUR BMI IS ${BMI} You have under weight`   
-    }else if(BMI>=25){
+    }else if(BMI>=18){
         document.getElementById('display').innerHTML = `YOUR BMI IS ${BMI} You have normal weight`   
     }else if(BMI>=30){
         document.getElementById('display').innerHTML = `YOUR BMI IS ${BMI} You have over weight`   
-    }else{
+    }else if(BMI<30) {
         document.getElementById('display').innerHTML = `YOUR BMI IS ${BMI} You are in obesity`  
     }
    
