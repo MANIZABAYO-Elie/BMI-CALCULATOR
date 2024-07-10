@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI CALCULATOR</title>
+    <link rel="stylesheet" href="BMI.css">
+</head>
+<body>
+    <div>
+        <h1>BODY MASS INDEX CALCULATOR</h1><br>
+        <label for="height">ENTER YOUR HEIGHT</label>
+        <input type="number" Class="height" id="height" min="10" max="200"><br>
+        <label for="mass">ENTER YOUR MASS</label>
+        <input type="number" Class="mass" id="mass" min="0" max="200"><br><br><br>
+        <button id="btn" class="btn" onclick="calculateBodyMassIndex()">Check your BMI</button><br><br><br>
+   </div>
+   <div>
+    <h1 id="display">0.0</h1>
+   </div>
+<script src="BMI.js"></script>    
+</body>
+</html>
